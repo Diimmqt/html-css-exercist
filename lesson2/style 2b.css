@@ -1,0 +1,12 @@
+#amazon{
+  border-radius: 10px;
+  border: 200px;
+  width: 200px;
+  background-color: rgb(255,216,20);
+  border-spacing: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body{
+  background-color: black;
+}
