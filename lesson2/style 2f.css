@@ -1,0 +1,19 @@
+#link{
+  color: rgb(0,113,133);
+}
+#stock{
+  color: rgb(0,118,0);
+}
+#Cart{
+  border-radius: 20px;
+  border: 0;
+  padding: 7px 20px;
+  background-color: rgb(255,216,20);
+}
+#buy{
+  border-radius: 20px;
+  border: 0;
+  padding: 7px 20px;
+  background-color: rgb(255,164,28);
+  
+}
