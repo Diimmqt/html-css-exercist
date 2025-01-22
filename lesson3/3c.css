@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-trans{
+  background-color: rgb(46,164,79);
+  color: white;
+}
+
+.button-trans:hover{
+  background-color: #28a745; /* Hijau lebih gelap saat hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.button-trans:active{
+  background-color: #1e7e34; /* Hijau lebih gelap saat ditekan */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}

@@ -1,0 +1,14 @@
+.button{
+  padding:8px 40px ;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button{
+  background-color: yellow;
+}
+
+.button-trans:hover{
+  background-color: gold;
+}
