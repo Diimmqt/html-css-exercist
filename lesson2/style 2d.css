@@ -4,6 +4,7 @@
   padding: 7px;
   border-radius: 5px;
   border: 0px;
+  cursor: pointer;
 }
 #Download{
   border-color: rgb(108,117,125);
@@ -11,5 +12,5 @@
   background-color: white;
   padding: 5px;
   border-radius: 3px;
-  
+  cursor: pointer;
 }

@@ -5,6 +5,7 @@
  background-color: rgb(10,102,194);
  color: white;
  border: 0;
+ cursor: pointer;
 }
 #sv{
   width: 70px;
@@ -12,4 +13,5 @@
   border-color: rgb(10,102,194);
   background-color: white;
   color: rgb(10,102,194);
+  cursor: pointer;
 }

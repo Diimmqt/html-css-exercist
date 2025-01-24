@@ -9,11 +9,12 @@
   border: 0;
   padding: 7px 20px;
   background-color: rgb(255,216,20);
+  cursor: pointer;
 }
 #buy{
   border-radius: 20px;
   border: 0;
   padding: 7px 20px;
   background-color: rgb(255,164,28);
-  
+  cursor: pointer;
 }
