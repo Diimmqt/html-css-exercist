@@ -1,0 +1,40 @@
+.link{
+  color: rgb(0,113,133);
+}
+.link:active{
+  color: crimson;
+}
+#stock{
+  color: rgb(0,118,0);
+}
+.cart{
+  border-radius: 20px;
+  border: 0;
+  padding: 7px 20px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.buy{
+  border-radius: 20px;
+  border: 0;
+  padding: 7px 20px;
+  background-color: rgb(255,164,28);
+  cursor: pointer;
+}
+
+.cart-trans:hover{
+  background-color:gold;
+}
+.buy-trans:hover{
+  background-color: chocolate;
+}
+
+.cart-trans:active{
+  transform: scale(0.9);
+  opacity: 60%;
+}
+.buy-trans:active{
+  transform: scale(0.9);
+  opacity: 60%;
+}
