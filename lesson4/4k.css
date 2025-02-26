@@ -1,0 +1,39 @@
+.one{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(46,164,79);
+  color: white;
+ cursor: pointer;
+}
+.two{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(46,164,79);
+  color: white;
+ cursor: pointer;
+}
+.three{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+ 
+  background-color: rgb(46,164,79);
+  color: white;
+ cursor: pointer;
+}
+.one-trans:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.two-trans:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.three-trans:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+}

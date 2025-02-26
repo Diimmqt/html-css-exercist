@@ -1,0 +1,24 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Button Styling */
+.strech {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Stretch Effect on Hover */
+.strech:hover {
+  transform: scaleX(1.3) scaleY(1.3); /* Memperlebar dan sedikit meninggikan */
+  background-color: #4500b5; /* Warna berubah saat hover */
+}

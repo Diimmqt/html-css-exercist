@@ -1,0 +1,13 @@
+.shadow{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(46,164,79);
+  color: white;
+}
+.shadow-trans:active{
+  background-color: #28a745; /* Hijau lebih gelap saat hover */
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(2px);
+}

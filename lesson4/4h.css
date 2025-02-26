@@ -1,0 +1,41 @@
+/* Style untuk pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.page-link, .nav-button {
+  text-decoration: none;
+  font-size: 18px;
+  color: purple;
+  text-decoration: underline;
+  padding: 5px 10px;
+}
+
+.page-link:hover, .nav-button:hover {
+  font-weight: bold;
+}
+
+/* Mengatur tampilan konten halaman */
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page {
+  display: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Menampilkan halaman yang sesuai dengan ID target */
+#page1:target, 
+#page2:target, 
+#page3:target, 
+#page4:target, 
+#page5:target {
+  display: block;
+}
