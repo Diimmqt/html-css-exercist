@@ -1,0 +1,13 @@
+body{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+}
+
+.Google{
+  width: 400px;
+  height: 30px;
+  border: 1px outset gray;
+  border-radius: 200px;
+}
