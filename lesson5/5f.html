@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .price {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .currency {
+            font-size: 16px;
+            color: gray;
+        }
+        .change {
+            font-size: 18px;
+            color: green;
+        }
+        .after-hours {
+            font-size: 14px;
+            color: black;
+        }
+        .after-hours .negative {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="price">1,049.61</span>
+        <span class="currency">USD</span>
+    </div>
+    <div>
+        <span class="change">+18.05 (1.75%) today</span>
+    </div>
+    <div class="after-hours">
+        After hours <span>1,048.00</span>
+        <span class="negative">-1.61 (0.15%)</span>
+    </div>
+</body>
+</html>
