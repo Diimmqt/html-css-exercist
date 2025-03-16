@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  width: 400px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 48%;
+  border-radius: 5px;
+}
+
+.request {
+  background-color: black;
+  color: white;
+}
+
+.schedule {
+  background-color: lightgray;
+  color: black;
+}

@@ -1,0 +1,21 @@
+.text-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 150px;
+  margin-top: 20vh;
+}
+
+.search{
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  margin-left:15vh;
+}
